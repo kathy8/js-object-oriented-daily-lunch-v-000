@@ -36,12 +36,12 @@ class Meal {
 
 
 
-class Employer {
+class Neighborhood {
   constructor(name) {
-    this.id = ++employerId;
+    this.id = ++neighborhoodId;
     this.name = name;
 
-    store.employers.push(this);
+    store.neighborhood.push(this);
   }
 
   employees() {
