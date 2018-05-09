@@ -2,7 +2,7 @@
 let store = { neighborhoods: [], meals: [], customers: [], deliveries: []};
 
 let mealId = 0;
-let employerId = 0;
+let neighborhoodsId = 0;
 let customerId = 0;
 let deliveryId = 0;
 
