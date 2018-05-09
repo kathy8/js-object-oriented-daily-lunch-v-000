@@ -1,10 +1,10 @@
 // global datastore
-let store = { neighborhoods: [], meals: [], customers: [], deliveries: [];
+let store = { neighborhoods: [], meals: [], customers: [], deliveries: []};
 
-let mealId = 0
-let employerId = 0
-let customerId = 0
-let deliveryId = 0
+let mealId = 0;
+let employerId = 0;
+let customerId = 0;
+let deliveryId = 0;
 
 class Meal {
   constructor(title, price) {
