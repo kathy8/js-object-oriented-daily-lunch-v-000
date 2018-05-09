@@ -34,7 +34,7 @@ class Meal {
   }
 }
 
-let employerId = 0;
+
 
 class Employer {
   constructor(name) {
@@ -85,7 +85,6 @@ class Employer {
   }
 }
 
-let customerId = 0;
 
 class Customer {
   constructor(name, employer = {}) {
@@ -118,7 +117,7 @@ class Customer {
   }
 }
 
-let deliveryId = 0;
+
 
 class Delivery {
   constructor(meal = {}, customer = {}) {
